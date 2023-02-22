@@ -1,0 +1,18 @@
+name: stocks
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python==3.8
+  - pytorch
+  - jupyterlab
+  - tqdm
+  - ipywidgets
+  - pip
+  - pip:
+    - transformers
+    - sentence-transformers
+    - seaborn
+    - puffbird
+    - protobuf==3.20.3
